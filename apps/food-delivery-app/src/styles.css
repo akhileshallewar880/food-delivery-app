@@ -1,1 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+/* Google Fonts */
+/* @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600;700&family=Lato&family=Nunito+Sans:opsz,wght@6..12,200&family=Roboto&display=swap'); */
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
