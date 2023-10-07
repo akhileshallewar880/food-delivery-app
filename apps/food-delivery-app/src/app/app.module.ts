@@ -3,11 +3,22 @@ import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { appRoutes } from './app.routes';
-import { NxWelcomeComponent } from './nx-welcome.component';
 import { CommonUiModule } from '@food-delivery-app/common-ui';
+import { HomeBannerComponent } from './Home/HomeBanner/home-banner.component';
+import { HomeComponent } from './Home/home.component';
+import { MenuFilterComponent } from './Home/MenuFilter/menu-filter.component';
+import { RestaurantGridComponent } from './Home/RestaurantGrid/restaurant-grid.component';
+import { RestaurantCardComponent } from './Home/RestaurantGrid/RestaurantCard/restaurant-card.component';
 
 @NgModule({
-  declarations: [AppComponent, NxWelcomeComponent],
+  declarations: [
+    AppComponent,
+    HomeBannerComponent,
+    HomeComponent,
+    MenuFilterComponent,
+    RestaurantGridComponent,
+    RestaurantCardComponent
+  ],
   imports: [
     CommonUiModule,
     BrowserModule,

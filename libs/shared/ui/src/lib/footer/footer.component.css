@@ -52,10 +52,7 @@ margin-top: 2.1875rem;
 }
 
 .copyright span{
-    
-
-margin-right: .5rem;
-    color: var(--neutral-gray-light, #C7C8D2);
+color: var(--neutral-gray-light, #C7C8D2);
 
 /* Body 2 - regular 13 (18, 0.2px) */
 font-family: Nunito;

@@ -1,0 +1,99 @@
+.card1 {
+    border-radius: 1rem;
+    background: var(--primary-light, #F3F4FF);
+    min-width: 33.75rem;
+    min-height: 11.75rem;
+    flex-shrink: 0;
+}
+
+.heading {
+    color: var(--neutral-black, #2B2B43);
+
+/* H5 - semibold 20 (28, 0.1px) */
+font-family: Nunito;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 28px; /* 140% */
+letter-spacing: 0.1px;
+}
+
+.hot-btn {
+    border-radius: 16px;
+border: 1px solid var(--primary-default, #4E60FF);
+color: var(--primary-default, #4E60FF);
+
+/* BUTTON 2 - extrabold 12 (18, 0.6px) */
+font-family: Nunito;
+font-size: 12px;
+font-style: normal;
+font-weight: 800;
+line-height: 18px; /* 150% */
+letter-spacing: 0.6px;
+text-transform: uppercase;
+display: inline-flex;
+padding: 6px 12px;
+align-items: flex-start;
+gap: 6px;
+}
+
+.card2 {
+    border-radius: 16px;
+    min-width: 33.75rem;
+    background: var(--secondary-light, #FFF3ED);
+    min-height: 11.75rem;
+    flex-shrink: 0;
+}
+
+.top-text {
+    color: var(--neutral-black, #2B2B43);
+
+/* H5 - semibold 20 (28, 0.1px) */
+font-family: Nunito;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 28px; /* 140% */
+letter-spacing: 0.1px;
+margin-top: 1.5rem;
+}
+
+.bottom-text {
+    color: var(--neutral-gray, #83859C);
+
+/* Body 1 - regular 14 (20, 0.1px) */
+font-family: Nunito;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 142.857% */
+letter-spacing: 0.1px;
+margin-bottom: 1rem;
+}
+
+.card1 .middle-text{
+    color: var(--primary-default, #4E60FF);
+
+/* H2 - extrabold 40 (56, 0.1px) */
+font-family: Nunito;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: 56px; /* 140% */
+letter-spacing: 0.1px;
+margin-bottom: 2.25rem;
+}
+
+.card2 .middle-text {
+    color: var(--secondary-default, #FD6D22);
+
+/* H2 - extrabold 40 (56, 0.1px) */
+font-family: Nunito;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: 56px; /* 140% */
+letter-spacing: 0.1px;
+margin-bottom: 2.25rem;
+
+}
