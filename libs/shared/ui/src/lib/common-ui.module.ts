@@ -7,6 +7,6 @@ import { LogoComponent } from './header/logo/logo.component';
 @NgModule({
   imports: [CommonModule],
   declarations: [HeaderComponent, FooterComponent, LogoComponent],
-  exports: [HeaderComponent,LogoComponent],
+  exports: [HeaderComponent,LogoComponent, FooterComponent],
 })
 export class CommonUiModule {}

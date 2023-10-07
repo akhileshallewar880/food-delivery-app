@@ -1,10 +1,12 @@
+.main-header{
+    border-bottom: 1px solid #EDEEF2;
+}
 .header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   min-height: 5rem;
   background: var(--neutral-white, #fff);
-  border-bottom: 1px solid #EDEEF2;
 }
 
 .profile-block {
