@@ -122,16 +122,8 @@ input {
 .list-text:hover {
     color: var(--primary-default, #4E60FF);
     cursor: pointer;
-    .dropdown-icon {
-        visibility: visible;
-    }
 }
 
-.list-text:hover {
-    .dropdown {
-        display: block;
-    }
-}
 
 .list-text:active {
   color: var(--primary-default, #4e60ff);

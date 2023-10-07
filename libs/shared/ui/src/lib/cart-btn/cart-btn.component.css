@@ -1,0 +1,35 @@
+.cart-btn {
+    display: flex;
+    min-height: 3rem;
+    min-width: 3rem;
+    border-radius: 16px;
+    background: var(--primary-light, #f3f4ff);
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .qty-indicator span {
+    color: var(--neutral-white, #fff);
+    text-align: center;
+  
+    /* Small 3 - bold 10 (14, 0px) */
+    font-family: Nunito;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 14px; /* 140% */
+  }
+
+  .qty-indicator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 1.25rem;
+    min-height: 1.25rem;
+    border-radius: 8px;
+    background: var(--primary-default, #4e60ff);
+    position: absolute;
+    top: -0.3125rem;
+    right: -0.3125rem;
+  }
