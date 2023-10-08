@@ -9,6 +9,8 @@ import { HomeComponent } from './Home/home.component';
 import { MenuFilterComponent } from './Home/MenuFilter/menu-filter.component';
 import { RestaurantGridComponent } from './Home/RestaurantGrid/restaurant-grid.component';
 import { RestaurantCardComponent } from './Home/RestaurantGrid/RestaurantCard/restaurant-card.component';
+import { AllRestaurantComponent } from './Pages/All-Restaurant/all-restaurant.component';
+import { RestaurantFilterComponent } from './Pages/All-Restaurant/Restaurant-Filter/restaurant-filter.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { RestaurantCardComponent } from './Home/RestaurantGrid/RestaurantCard/re
     HomeComponent,
     MenuFilterComponent,
     RestaurantGridComponent,
-    RestaurantCardComponent
+    RestaurantCardComponent,
+    AllRestaurantComponent,
+    RestaurantFilterComponent,
   ],
   imports: [
     CommonUiModule,
