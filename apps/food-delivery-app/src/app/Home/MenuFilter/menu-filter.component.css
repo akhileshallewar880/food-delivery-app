@@ -1,0 +1,30 @@
+.menu-card{
+    border-radius: 1rem;
+    border: 1px solid #EDEEF2;
+    height: 5rem;
+    width: 10rem;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.menu-card:hover {
+    background-color: #F8F9FF;
+    cursor: pointer;
+    border-color: #697BFF;
+}
+
+h3 {
+    color: var(--neutral-gray-dark, #545563);
+text-align: center;
+
+/* Small 1 - bold 13 (18, 0.1px) */
+font-family: Nunito;
+font-size: 13px;
+font-style: normal;
+font-weight: 700;
+line-height: 18px; /* 138.462% */
+letter-spacing: 0.1px;
+}
